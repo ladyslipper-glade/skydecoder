@@ -1,0 +1,46 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skydecoder"
+version = "0.1.0"
+description = "An application to identify celestial objects in night sky images."
+readme = "README.md"
+requires-python = ">=3.13"
+license = { file = "LICENSE" }
+authors = [
+  { name="Anne Chapin", email="ladyslipper.glade@gmail.com" },
+]
+keywords = ["astronomy", "image processing", "data science", "plate solving"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+]
+
+#dependencies = [
+#    "numpy",
+#    "astropy",
+#    "opencv-python", # Use opencv-python for pip/pyproject.toml, not just opencv
+#    "matplotlib",
+#    # Add other core dependencies here
+#]
+
+# Optional: Define a console script if you want to run your app directly from the command line after installation
+# [project.scripts]
+# skydecoder = "src.skydecoder.main:main_function"
+
+# Optional: Configuration for tools (you can add these later)
+# [tool.black]
+# line-length = 96
+# target-version = ['py313']
+
+# [tool.mypy]
+# python_version = "3.13"
+# warn_return_any = true
