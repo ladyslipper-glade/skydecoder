@@ -7,10 +7,10 @@ This project is currently a **Python** placeholder and learning project.
 * **Dependency Management:** We use a combination of `pyproject.toml` (for build/metadata) and
   `environment.yaml` (for environment/dependency definition).
   
-* **Primary Language:** Python 3.11+
+* **Primary Language:** Python 3.13+
 
 * **Project Goal:** The immediate goal is to develop a small command-line utility for processing
-  images of astronomical objects. Secondarily, this project is intended to serve as a learning
+  images of astronomical objects. Secondly, this project is intended to serve as a learning
   vehicle for its one developer.
 
 ## 2. Developer Context (IMPORTANT)

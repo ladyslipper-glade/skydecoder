@@ -32,11 +32,12 @@ classifiers = [
 #    # Add other core dependencies here
 #]
 
-# Optional: Define a console script if you want to run your app directly from the command line after installation
-# [project.scripts]
-# skydecoder = "src.skydecoder.main:main_function"
+[project.scripts]
+skydecoder = "skydecoder.main:main"
 
-# Optional: Configuration for tools (you can add these later)
+[tool.setuptools.packages.find]
+where = "src"
+
 # [tool.black]
 # line-length = 96
 # target-version = ['py313']
